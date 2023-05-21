@@ -1,0 +1,3 @@
+C:/Users/Daniel.000/CLionProjects/MAMAN 22/cmake-build-debug/CMakeFiles/MAMAN_22.dir
+C:/Users/Daniel.000/CLionProjects/MAMAN 22/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Daniel.000/CLionProjects/MAMAN 22/cmake-build-debug/CMakeFiles/rebuild_cache.dir
