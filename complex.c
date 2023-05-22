@@ -40,3 +40,6 @@ complex mult_comp_comp(complex *number1,complex *number2){
 double abs_comp(complex *number1){
     return sqrt(pow(number1->real,2)+ pow(number1->img,2));
 }
+void stop(){
+    exit;
+}

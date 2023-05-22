@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-typedef  struct {
+typedef struct {
     double real;
     double img;
 } complex;
@@ -14,3 +14,8 @@ complex mult_comp_real(complex *number1,double number2);
 complex mult_comp_img(complex *number1,double number2);
 complex mult_comp_comp(complex *number1,complex *number2);
 double abs_comp(complex *number1);
+void stop();
+
+
+
+
