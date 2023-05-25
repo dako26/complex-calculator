@@ -51,3 +51,15 @@ complex mult_comp_comp(complex *number1, complex *number2) {
 double abs_comp(complex *number1) {
     return sqrt(pow(number1->real, 2) + pow(number1->imag, 2));
 }
+
+char *removeSpaces(char *str) {
+    int i, j,k;
+    for (i = 0, j = 0; str[i] != '\0'; i++) {
+
+        if (str[i] != ' ') {
+            str[j++] = str[i];
+        }
+    }
+    str[j] = '\0';
+    return str;
+}
