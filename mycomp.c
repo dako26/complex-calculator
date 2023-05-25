@@ -84,7 +84,7 @@ int main() {
         fgets(user_line_input, buffer_size, stdin);
         sscanf(user_line_input,"%s",user_func_input);
         size_t length = strlen(user_func_input);
-        memmove(user_line_input, user_line_input + length, length - strlen(user_line_input) + 1);
+        memmove(user_line_input, user_line_input + length, strlen(user_line_input) - length + 1);
         char *input = removeSpaces(user_line_input);
         printf(input);
         for (i = 0; i < 8; i++) {
